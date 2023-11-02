@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './css/Preguntas.css'
+import './css/preguntas.css'
 import Subtitulo from '../assets/subtitulo.jsx';
 
 function Preguntas() {
