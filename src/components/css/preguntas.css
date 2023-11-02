@@ -1,0 +1,26 @@
+/* La mayoria de los estilos para la seccion de PREGUNTAS FRECUENTES fueron reutilizadas de la seccio de PLANES  */
+
+.preguntas{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.rowTabla img{
+    cursor: pointer;
+}
+
+
+.respuesta{
+    padding: 20px;
+    max-width: 90ch;
+}
+.noMostrar{
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .preguntas{
+        width: 90%;
+    }
+
+}

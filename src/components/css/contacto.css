@@ -1,0 +1,79 @@
+.contacto {
+    background-color: #222222;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.contactoCuadroInputs {
+    background-color: #181818;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    width: 50%;
+}
+
+.contactoCuadroInputsTextos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contactoBoton {
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+.contactoRedes {
+    padding: 15px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactoRedes p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contactoRedesImages {
+    display: flex;
+    gap: 20px;
+}
+
+.contactoRedesImages img {
+    width: 40px;
+}
+
+@media screen and (max-width: 750px) {
+    .contacto {
+        flex-direction: column;
+        margin: 10px;
+        width: auto;
+    }
+
+    .contactoCuadroInputs {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        margin: auto;
+    }
+
+    .contactoCuadroInputsTextos {
+        width: 100%;
+        margin: auto;
+    }
+    .contactoBoton{
+        justify-content: center;
+    }
+    .contactoRedes{
+        width: auto;
+    }
+
+}

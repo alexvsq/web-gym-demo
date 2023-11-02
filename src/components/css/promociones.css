@@ -1,0 +1,84 @@
+.cuadroPromo {
+    background-color: #222222;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    width: 70%;
+    margin:  40px auto ;
+}
+
+.imagePromo {
+    width: 70%;
+
+}
+
+.imagePromo img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.promoBotones {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.promoBoton {
+    background-color: #181818;
+    border-radius: 30px;
+    padding: 12px 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.promoBoton:hover {
+    background-color: #e9dd01;
+    color: black;
+    font-weight: 500;
+}
+
+.infoBtn{
+    margin: 15px 10px 25px;
+}
+@media screen and (max-width: 1250px) {
+    .cuadroPromo {
+       
+        width: 90%;
+
+    }
+}
+@media screen and (max-width: 750px) {
+
+    .cuadroPromo {
+        background-color: #222222;
+        border-radius: 30px;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .imagePromo {
+        width: 100%;
+
+    }
+    .promoBotones {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .promoBoton {
+        width: 80%;
+        background-color: #181818;
+        border-radius: 30px;
+        padding: 10px 20px;
+        margin: 10px;
+    }
+}

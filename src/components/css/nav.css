@@ -1,0 +1,132 @@
+.navFondo {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navLogo {
+    max-width: 280px;
+}
+
+.navLogo img {
+    width: 100%;
+}
+
+.listaBotones {
+    width: 430px;
+}
+
+.listaBotones ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listaBotones ul a{
+    color: #b6b6b6;
+}
+
+.listaBotones ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: white;
+    text-decoration-color: #E9DD01;
+}
+
+.botonesNav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.iconNav {
+    display: none;
+}
+
+.lineaNav {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .navFondo {
+        background-color: #181818d8;
+        position: fixed;
+        width: 100%;
+        backdrop-filter: blur(10px);
+
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .navLogo {
+        max-width: 200px;
+    }
+
+    .iconNav {
+        display: block;
+        position: absolute;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .listaBotones {
+        position: absolute;
+        background-color: #E9DD01;
+        border-radius: 0 30px 30px 0;
+        width: 70%;
+        left: -150%;
+        height: 100vh;
+        top: 0;
+        font-size: 16px;
+        font-weight: 500;
+        transition: 0.5s;
+
+    }
+
+    /* habilitar menu */
+    .enable {
+        left: 0;
+    }
+
+    .listaBotones ul {
+        flex-direction: column;
+      
+        padding: 20px;
+    }
+    .listaBotones ul a{
+        color: black;
+    }
+
+    .listaBotones ul li {
+        padding: 15px;
+    }
+
+    .lineaNav {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+
+    }
+
+    .botonesNav {
+        display: none;
+
+    }
+}

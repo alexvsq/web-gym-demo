@@ -1,0 +1,29 @@
+
+.testimonios{
+    width: 100%;
+    margin: 30px auto;
+    overflow-y: auto;
+    display: flex;
+}
+.testiCard{
+    background-color: #222222;
+    border-radius: 30px;
+    padding: 25px;
+    min-width: 320px;
+    margin: 15px;
+}
+
+.footerCardTesti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+

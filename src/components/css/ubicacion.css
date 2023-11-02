@@ -1,0 +1,62 @@
+.ubicacion{
+    background-color: #222222;
+    border-radius: 30px;
+    width: 60%;
+    margin: 80px auto;
+}
+
+.mapaCuadro{
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+}
+.textoUbicacion{
+    padding: 20px;
+}
+.textoUbicacionTitulo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.textoUbicacionParrafo{
+    max-width: 70ch;
+    margin: 15px auto;
+}
+.ubicacionInputs{
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+.ubicacionInputsTexto input{
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    border-width: 1px;
+    border-color: #555555;
+    background-color: #000000;
+    color:#b6b6b6;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .ubicacion{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .ubicacion{
+        width: 95%;
+    }
+    
+    .mapaCuadro{
+       flex-direction: column-reverse;
+    }
+    .textoUbicacion{
+        padding: 10px;
+    }
+}

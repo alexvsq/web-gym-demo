@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;  
+}
+a{
+  text-decoration: none;
+  color: #b6b6b6;
+}
+
+
+
+body {
+  background-color: #181818;
+  font-family: 'Roboto', sans-serif;
+  color: #b6b6b6;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1200px;
+
+  margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 92%;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+.backg-logo{
+  background-image: url('/images/bgLogo.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 130%;
+}
+
+.backg-logo2{
+  background-image: url('/images/bgLogo2.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 130%;
+}
+
+.botonUpFloat{
+  height: 30px;
+  width: 30px;
+  background-color: #e9dd01;
+  border: solid #181818;
+  border-radius: 100%;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.botonUpFloat img{
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .botonUpFloat{
+
+    left: 10px;
+    bottom: 10px;
+ 
+  }
+}
