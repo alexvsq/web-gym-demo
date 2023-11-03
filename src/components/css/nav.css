@@ -43,6 +43,7 @@
     text-underline-offset: 8px;
     color: white;
     text-decoration-color: #E9DD01;
+    transition: 0.2s;
 }
 
 .botonesNav {

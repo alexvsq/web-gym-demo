@@ -50,6 +50,10 @@
 .contactoRedesImages img {
     width: 40px;
 }
+.contactoRedesImages img:hover {
+    opacity: 0.7;
+    transition: 0.2;
+}
 
 @media screen and (max-width: 750px) {
     .contacto {
