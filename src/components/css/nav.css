@@ -52,6 +52,12 @@
     gap: 20px;
 
 }
+.botonesNav p{
+ cursor: pointer;
+}
+.botonesNav p:hover{
+    color: white;
+}
 
 .iconNav {
     display: none;

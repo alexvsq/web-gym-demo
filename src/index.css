@@ -48,8 +48,10 @@ body {
 .botonUpFloat{
   height: 30px;
   width: 30px;
-  background-color: #e9dd01;
-  border: solid #181818;
+  background-color: rgba(0, 0, 0, 0.152);
+  box-shadow: 0px 0px 15px -3px #ffffff35;
+  backdrop-filter: blur(10px);
+  border: 2px solid #303030;
   border-radius: 100%;
   padding: 10px;
   position: fixed;
@@ -57,6 +59,12 @@ body {
   bottom: 20px;
   opacity: 0.9;
   cursor: pointer;
+
+}
+
+.botonUpFloat:hover{
+  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.64);
 }
 
 .botonUpFloat img{
